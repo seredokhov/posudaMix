@@ -1,0 +1,99 @@
+@media only screen and (max-width : 1550px) {
+.feature{position:static;width:300px}
+.feature .title{white-space:normal}
+.center_image{overflow:hidden}
+.left_panel,.right_panel{float:none;display:flex;flex-wrap:wrap;justify-content:space-between}
+}
+@media only screen and (max-width : 1200px) {
+.present{flex-basis:50%}
+.present_box{left:50%}
+.present_banner{height:auto;padding:20px 0}
+.discount_item{display:flex;flex-direction:column-reverse;position:relative}
+.discount_item .col-lg-6,.radio_group_block{position:static}
+.radio_group_block{float:none;display:flex;flex-direction:column;align-items:center}
+.discount_item .img_block{order:-1}
+.discount_cost_block{order:1}
+.radio_group_block .discount_cost_block{position:static;vertical-align:top}
+.radio_group_block .shadow_block{display:none}
+a.more_info{margin-bottom:20px;position:absolute;bottom:0}
+.discount_item_ul,.tab_content{margin-bottom:90px}
+.advantages_section .advantage_list{justify-content:space-around}
+.present_descr{padding-bottom:30px}
+.subscribe_block{margin-bottom:0}
+.subscribe input{margin:5px}
+.subscribe{height:auto;top:-45px}
+.header_form::before{left:-144px;top:-47px}
+.present_change_section{padding-top:50px}
+.subscribe_title{width:100%}
+.subscribe .email_send{display:block;width:250px}
+}
+@media only screen and (max-width : 1100px) {
+.header_bottom .discount_ul_block{padding:80px 0 30px}
+.header_form{margin:0 auto}
+.left_panel,.right_panel{justify-content:space-around}
+.button_group{text-align:center}
+.discount_item .button_group a,.advantage_list .advantage{margin:20px}
+.subscribe_block{width:100%}
+}
+@media only screen and (max-width : 992px) {
+.feature{margin-bottom:15px}
+.map{height:500px}
+header{background-position:center 75px;background-size:1500px}
+}
+@media only screen and (max-width : 768px) {
+.present_box{position:static;transform:none}
+.present_banner .row,.present_banner .row > div{min-height:auto}
+.present_box img{width:100%}
+.contact_block{display:none}
+.header_form{position:static}
+.header_form::before{left:50%;top:0;transform:translateX(-50%)}
+.header_bottom .form_block{padding-top:175px}
+.header_fade h1,.header_fade h2,.discount_section h2 strong,.discount_section h2{font-size:35px}
+.advantages_section,.presentation_section,.present_change_section{padding:40px 0}
+.presentation_section{padding-top:0}
+.present_descr >div.firstline,.present_descr >div.secondline,.present_descr >div.savedline,.advantages_section h1,.presentation_section h2{font-size:30px}
+.present_descr >div.thirtdline,.present_descr >div.savedline span,.advantage .description{font-size:16px}
+.header_bottom .discount_title,.advantage .title{font-size:17px}
+.discount_item h3,.feature .title{font-size:16px;margin-bottom:10px}
+.map{height:300px}
+.subscribe{padding:10px}
+.subscribe input{width:250px;display:block;margin:10px auto}
+.subscribe_title{font-size:17px}
+.center_image{font-size:17px;line-height:normal;width:400px;height:440px;background-size:100%;padding:154px 168px 204px 52px}
+.header_fade .action_time span{display:block}
+.modal{width:90%}
+.modal .text a{white-space:normal}
+}
+@media only screen and (max-width : 480px) {
+.header_form{width:100%}
+.header_form fieldset,.header_form input[type="text"],.header_form .btn_send{width:95%}
+.header_form div{font-size:16px}
+.subscribe input,.subscribe .email_send{width:100%}
+.discount_item_ul li,.char_name,.char{display:block;text-align:center}
+.char_name{background:#ccc}
+.char{background:#fff}
+.discount_item_ul li{margin-bottom:5px}
+.discount_item_ul .border{display:none}
+.center_image{font-size:14px;line-height:normal;width:300px;height:320px;background-size:100%;padding:114px 125px 145px 40px}
+.discount_item{overflow:hidden}
+}
+@media only screen and (max-width : 400px) {
+.radio_group_block .img_block{width:260px;height:260px;background-size:cover}
+.item_1 .img_block{background-position:4px 9px}
+.item_2 .img_block{background-position:-329px 4px}
+.item_3 .img_block{background-position:-612px -18px}
+.center_image{font-size:14px;line-height:normal;width:270px;height:290px;background-size:100%;padding:89px 113px 45px 35px}
+.present_descr >div.savedline span{display:block;margin:10px 0;text-align:center}
+.present_change_section{padding-top:10px}
+.upper_header .logo{width:25%}
+.upper_header .logo img{width:100%}
+.upper_header .callback_block{position:relative;top:-15px}
+.upper_header a.call{font-size:20px}
+.upper_header a.callback{font-size:16px}
+}
+@media only screen and (min-width : 992px) {
+.upper_header{width:840px!important}
+}
+@media only screen and (min-width : 1200px) {
+.container{width:1180px}
+}
