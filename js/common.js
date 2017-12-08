@@ -12,9 +12,8 @@ function init(){
 		zoom: 17
 	});
 	myMap.behaviors.disable('scrollZoom');
-	if (width < 1200) {
-		myMap.behaviors.disable('drag');
-	}
+	myMap.behaviors.disable('drag');
+	
 	myPlacemark = new ymaps.Placemark([55.731262, 37.666036],{}, {
 		iconLayout: 'default#image',
 		iconImageHref: 'images/mark.png',
